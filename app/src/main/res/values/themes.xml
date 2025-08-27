@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.AndroidLessons" parent="Base.Theme.AndroidLessons" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#2D551D</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_insert</item>
+        <item name="postSplashScreenTheme">@style/Theme.AndroidLessons</item>
+    </style>
 </resources>
