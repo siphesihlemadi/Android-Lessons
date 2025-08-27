@@ -1,15 +1,46 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle files
+.gradle/
+build/
+
+# Local configuration
 local.properties
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+!.idea/codeStyles/     
+
+# Generated files
+captures/
+.externalNativeBuild/
+.cxx/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Keystore files (don’t commit signing keys!)
+*.jks
+*.keystore
+
+# Android Studio Navigation Editor temp files
+.navigation/
+
+# Google Services (keep only if you plan to share config safely)
+google-services.json
+
+# Crashlytics / Firebase
+app/fabric.properties
+
+# NDK / CMake
+obj/
+
+# Misc
+*.apk
+*.ap_
+*.aab
